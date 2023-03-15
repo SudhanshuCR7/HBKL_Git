@@ -1,0 +1,19 @@
+{
+  "name": "namaste-react-revision",
+  "version": "1.0.0",
+  "description": "",
+  "main": "App.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SudhanshuCR7/HBKL_Git.git"
+  },
+  "author": "Sudhanshu Nigam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SudhanshuCR7/HBKL_Git/issues"
+  },
+  "homepage": "https://github.com/SudhanshuCR7/HBKL_Git#readme"
+}
