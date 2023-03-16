@@ -1,10 +1,10 @@
 {
   "name": "namaste-react-revision",
   "version": "1.0.0",
-  "description": "",
   "main": "App.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "start": "npx parcel index.html"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,15 @@
   "bugs": {
     "url": "https://github.com/SudhanshuCR7/HBKL_Git/issues"
   },
-  "homepage": "https://github.com/SudhanshuCR7/HBKL_Git#readme"
+  "homepage": "https://github.com/SudhanshuCR7/HBKL_Git#readme",
+  "description": "",
+  "devDependencies": {
+    "parcel": "^2.8.3",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.9.0"
+  }
 }
