@@ -1,3 +1,51 @@
 #container {
     text-emphasis-color: blue;
 }
+
+.main-div {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px
+}
+
+.ul-list {
+    display: flex;
+    list-style: none;
+    padding-right: 100px;
+
+}
+
+.ul-list > li {
+    padding: 10px;
+}
+
+.img{
+    width: 100px;
+    height: 100px;
+}
+
+.card > img{
+   width: 270px;
+   height: 200px;
+}
+
+.card {
+    border: 1px solid black;
+    padding: 10px;
+    width: 275px;
+    margin: 10px
+    
+}
+
+.card > h3 {
+    overflow-wrap:break-word;
+}
+
+.list-of-restaurants{
+    margin-top: 50px;
+    margin-left: 80px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
