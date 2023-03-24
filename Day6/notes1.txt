@@ -1,0 +1,21 @@
+A content delivery network (CDN) is a geographically distributed group of servers that caches content close to end users. A CDN allows for the quick transfer of assets needed for loading Internet content, including HTML pages, JavaScript files, stylesheets, images, and videos
+
+
+Why is CDN used?
+The primary goal of a CDN is to improve web performance by reducing the time needed to send content and rich media to users. CDN architecture is also designed to reduce network latency caused by hauling traffic over long distances and across several networks.
+
+
+Why is React known as React?
+“And it's called React because it reacts. It was developed by Facebook (a site that CONSTANTLY updates their data) to improve the user interface development and more effectively change (REACT to) what the user sees when they're doing things like mouse clicking, submitting and typing.”
+
+
+What is crossorigin in script tag?
+The crossorigin attribute sets the mode of the request to an HTTP CORS Request. Web pages often make requests to load resources on other servers. Here is where CORS comes in. A cross-origin request is a request for a resource (e.g. style sheets, iframes, images, fonts, or scripts) from another domain.
+
+
+What is diference between React and ReactDOM
+The react package holds the react source for components, state, props and all the code that is react. The react-dom package as the name implies is the glue between React and the DOM.
+
+
+What is difference between react.development.js and react.production.js files via CDN?
+The development build is used - as the name suggests - for development reasons. You have Source Maps, debugging and often times hot reloading ability in those builds. The production build, on the other hand, runs in production mode which means this is the code running on your client's machine.

@@ -1,0 +1,14 @@
+Difference between tilde ( ~ ) and caret ( ^ ) in package.json ?
+
+first understand that this the format = Major.Minor.patch
+
+Tilde (~) notation: It is used to match the most recent patch version. Tilde ~ notation freezes the major version and minor version. As we know patch updates are bug fixes that’s why we can say ~ notation allows us to automatically accept bug fixes.
+Example: The ~1.2.0 will update all the future patch updates. We have to write just ~1.2.0 and all the next patch update dependencies. For example, 1.2.1, 1.2.2, 1.2.5……………1.2.x.
+Note: Patch updates are very small security changes in a package that is why the ~version is approximately equivalent to the version.
+
+Caret (^) notation: It is used for automatically updating the minor updates along with patch updates. 
+Example: The ^1.2.4 will update all the future Minor and patch updates, for example, ^1.2.4 will automatically change the dependency to 1.x.x if any update occurs. 
+Using caret notation it is important to look at our code regularly if it is compatible with the newest version or not.
+
+link - https://www.geeksforgeeks.org/difference-between-tilde-and-caret-in-package-json/
+
